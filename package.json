@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "The API backend for Rig",
   "main": "index.js",
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
   "scripts": {
-    "start": "npx tsc && index.js",
+    "start": "nodemon index.ts",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,8 +27,33 @@
     "@types/cors": "^2.8.17",
     "@types/dotenv": "^8.2.0",
     "@types/express": "^4.17.21",
+    "assert": "^2.1.0",
+    "browser": "^0.2.6",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
     "cors": "^2.8.5",
+    "crypto-browserify": "^3.12.0",
     "dotenv": "^16.4.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "html-webpack-plugin": "^5.6.0",
+    "mime": "^4.0.1",
+    "nodemon": "^3.1.0",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "path-browserify": "^1.0.1",
+    "querystring-es3": "^0.2.1",
+    "send": "^0.18.0",
+    "stream": "^0.0.2",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "url": "^0.11.3",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
   }
 }
