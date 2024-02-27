@@ -1,0 +1,19 @@
+{
+  "name": "rig-api",
+  "version": "1.0.0",
+  "description": "The API for the Rig chat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/da2667/rig-api.git"
+  },
+  "author": "Dylan Armstrong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/da2667/rig-api/issues"
+  },
+  "homepage": "https://github.com/da2667/rig-api#readme"
+}
