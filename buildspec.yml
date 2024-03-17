@@ -20,4 +20,5 @@ artifacts:
     - scripts/*
     - package.json
     - appspec.yml
+    - index.ts
     - tsconfig.json
