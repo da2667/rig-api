@@ -2,7 +2,7 @@
   "name": "rig-api",
   "version": "1.0.0",
   "description": "The API backend for Rig",
-  "main": "index.js",
+  "main": "index.ts",
   "browser": {
     "fs": false,
     "path": false,
